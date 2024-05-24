@@ -80,7 +80,7 @@ export const SendSolForm: FC = () => {
                     {error && <p className={styles.error}>{error}</p>}
                 </form>
             ) : (
-                <span>Connect Your Wallet</span>
+                <span className='flex justify-center'>Connect Your Wallet</span>
             )}
             {txSig && (
                 <div className='flex justify-center'>
